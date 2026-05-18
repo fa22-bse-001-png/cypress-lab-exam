@@ -23,14 +23,3 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-Cypress.Commands.add('login', (username, password) => {
-  cy.get('[data-test="username"]').type(username)
-  cy.get('[data-test="password"]').type(password)
-  cy.get('[data-test="login-button"]').click()
-})
-
-Cypress.Commands.add('loginHeroku', (username, password) => {
-  cy.get('#username').type(username)
-  cy.get('#password').type(password)
-  cy.get('button[type="submit"]').click()
-})
