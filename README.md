@@ -2,7 +2,7 @@
 
 ## Student Info
 - **Course:** Software Testing (CSE482)
-- **Semester:** 8th | Batch: FA22-BSE
+- **Semester:** 8th |Name: Haseen Khubaib| Batch: FA22-BSE-001
 
 ## Description
 This project contains End-to-End (E2E) tests written using the Cypress framework for the website https://www.saucedemo.com
